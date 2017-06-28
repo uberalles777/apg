@@ -11,7 +11,7 @@ Count = 1
 def Pwgen(File, Len):
     Password = ''
     while len(Password) < Len:
-        coin = randint(1, 3)
+        coin = randint(0, 1)
         RandomWorld = choice(File)
         RandCut = randint(1, len(RandomWorld))
         RandInt = randint(0, 9)
